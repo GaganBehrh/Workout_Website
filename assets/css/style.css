@@ -90,13 +90,32 @@ Why this doesnt work to align the image at center?
     justify-content: center;
 }
 */
-
-
 #remote_exercise img{
     width: 65%;
     height: 600px;
     margin: 0 auto;
     display: block;
-margin-top: -20px;
-   
+margin-top: -20px; 
 }
+
+#centers{
+    margin:0 auto;
+    display: block;
+    margin-top: 100px;
+}
+
+.innercenter{
+    margin-top:40px;
+}
+
+#centers h1{
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 20px;
+}
+#centersbutton{
+    background-color: black;
+    color:white;
+    font-size:30px;
+    text-emphasis: bold;
+   }
