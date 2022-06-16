@@ -18,8 +18,39 @@ h1{
     letter-spacing: 4px;
     color:#242323;
 }
+
+/*Aligining the menu and logo in the header using line-height*/
+#menu,#logo{
+    line-height:75px;  
+}
 #logo{
     float:left;
     font-size: 250%;
 
 }
+
+/* menu items*/
+#menu{
+    font-size:100%;
+    letter-spacing: 4px;
+}
+
+
+#menu li{
+    float:right;
+    list-style-type: none;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+#menu a{
+    text-decoration: none;
+    color:#3a3a3a;
+}
+
+/*when we hover it a line appears with the following thickness*/
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
