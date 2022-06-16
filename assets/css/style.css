@@ -26,6 +26,7 @@ h1{
 #logo{
     float:left;
     font-size: 250%;
+    margin-left: 20px;
 
 }
 
@@ -68,3 +69,19 @@ h1{
     background: url("../images/workout_image.webp") no-repeat;
 }
 
+#remote_exercise{
+    height:600px;
+}
+#remote_exercise h1{
+    text-align: center;
+    font-weight: 200;
+}
+
+#watch_from_anywhere{
+    height: 600px;
+    /*Adding the image as background*/
+    background: url("../images/watch_from_anywhere.webp") no-repeat;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
