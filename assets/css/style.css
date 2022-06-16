@@ -103,9 +103,12 @@ margin-top: -20px;
     display: block;
     margin-top: 100px;
 }
-
 .innercenter{
     margin-top:40px;
+}
+
+.innercenter img{
+    border-radius:20px;
 }
 
 #centers h1{
@@ -120,7 +123,6 @@ margin-top: -20px;
     text-emphasis: bold;
 }
 /*footer section*/
-
 #contactdetails{
  text-align: center;
  background-color: black;
@@ -129,4 +131,31 @@ margin-top: -20px;
 #contactdetails h1{
     color:white;
 
+}
+
+/*Media Queries*/
+
+/*For larger to medium screens size from 1200px and down*/
+
+@media screen  and (max-width:1200px) {
+    #workout-outer{
+        width:65%;
+        height:1200px;
+        margin:  0 auto;
+
+    }
+
+    #remote_exercise{
+    padding: 30px 0;
+    margin: 0;
+    }
+}
+@media screen  and (max-width:950px) {
+    #menu{
+        clear:left;
+        float:left;
+        margin-left:30px;
+        margin-right: 20px;
+        line-height: 25px;
+    }
 }
