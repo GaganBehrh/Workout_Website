@@ -29,7 +29,6 @@ h1{
     margin-left: 20px;
 
 }
-
 /* menu items*/
 #menu{
     font-size:100%;
@@ -68,20 +67,36 @@ h1{
     /*Adding the image as background*/
     background: url("../images/workout_image.webp") no-repeat;
 }
-
+/*Remote Exercise Section*/
 #remote_exercise{
     height:600px;
 }
 #remote_exercise h1{
-    text-align: center;
-    font-weight: 200;
-}
+    letter-spacing: 20px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 50px;
+}    
 
+/*
+Why this doesnt work to align the image at center?
 #watch_from_anywhere{
-    height: 600px;
-    /*Adding the image as background*/
-    background: url("../images/watch_from_anywhere.webp") no-repeat;
+    background:url(../images/watch_from_anywhere.webp);
     margin: 0 auto;
     display: block;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+*/
+
+
+#remote_exercise img{
+    width: 65%;
+    height: 600px;
+    margin: 0 auto;
+    display: block;
+margin-top: -20px;
+   
 }
