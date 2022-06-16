@@ -53,4 +53,18 @@ h1{
     border-bottom: 1px solid #3a3a3a;
 }
 
+/*Workout Image styling*/
+#workout-outer{
+    width: 100%;
+    height: 600px;
+    overflow: hidden; /* to clear the header so that theres no overlpa between heading and the image*/
+}
+
+/*Adding and styling the Image*/
+#workout-image{
+    width: 100%;
+    height: 600px;
+    /*Adding the image as background*/
+    background: url("../images/workout_image.webp") no-repeat;
+}
 
