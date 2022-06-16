@@ -97,7 +97,7 @@ Why this doesnt work to align the image at center?
     display: block;
 margin-top: -20px; 
 }
-
+/*Remote Section*/
 #centers{
     margin:0 auto;
     display: block;
@@ -118,4 +118,15 @@ margin-top: -20px;
     color:white;
     font-size:30px;
     text-emphasis: bold;
-   }
+}
+/*footer section*/
+
+#contactdetails{
+ text-align: center;
+ background-color: black;
+ color:white;
+}
+#contactdetails h1{
+    color:white;
+
+}
