@@ -124,6 +124,19 @@ margin-top: -20px;
 }
 /*footer section*/
 
+
+#socialmedia li {
+  text-align: center;
+  display: inline;
+}
+#socialmedia img{
+    width: 25px;
+    height: 25px;
+    float: right;
+} 
+
+
+/*
 #socialmedia{
     background-color: black;
 }
@@ -136,30 +149,30 @@ margin-top: -20px;
     list-style-type: none;   
 }
 
-#twitter{
-    float:right;
-    color:purple;
-    
-    
-}
 #gmail{
     float:right;
     color:purple;
-    width: 25%;
-    width: 40px;
-    height: 40px;
+    line-height: 0.5;
+   
 }
 #linkedin{
     float:right;
     color:purple;
-    width: 25%;
+    line-height: 0.5;
+
 }
 #facebook{
     float:right;
     color:purple;
-    width: 25%;
+    line-height: 0.5;
 }
-
+#twitter{
+    float:right;
+    color:purple;
+    line-height: 0.5;
+ 
+}
+*/
 
 /*Media Queries*/
 
