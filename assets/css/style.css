@@ -11,6 +11,7 @@ body{
     font-weight:250;
     color:#3a3a3a;
 }
+/*Style for the Home page*/
 /*logo*/
 h1{
     font-family: sans-serif;
@@ -79,17 +80,6 @@ h1{
     align-items: center; 
     font-size: 50px;
 }    
-
-/*
-Why this doesnt work to align the image at center?
-#watch_from_anywhere{
-    background:url(../images/watch_from_anywhere.webp);
-    margin: 0 auto;
-    display: block;
-    display: flex;
-    justify-content: center;
-}
-*/
 #remote_exercise img{
     width: 65%;
     height: 600px;
@@ -171,43 +161,6 @@ footer{
 } 
 
 
-/*
-#socialmedia{
-    background-color: black;
-}
-#socialmedia ul{
-    list-style-type: none;
-    color: white;
-   
-}
-#socialmedia li{
-    list-style-type: none;   
-}
-
-#gmail{
-    float:right;
-    color:purple;
-    line-height: 0.5;
-   
-}
-#linkedin{
-    float:right;
-    color:purple;
-    line-height: 0.5;
-
-}
-#facebook{
-    float:right;
-    color:purple;
-    line-height: 0.5;
-}
-#twitter{
-    float:right;
-    color:purple;
-    line-height: 0.5;
- 
-}
-*/
 
 /*Media Queries*/
 
@@ -238,3 +191,12 @@ footer{
     }
 }
 
+/*Style for the SignUp page*/
+.coverpic{
+    
+background:url("../images/workout_image_3.webp") no-repeat center center;
+background-size: cover;
+background-position:center;
+width:100%;
+height: 700px;
+}
