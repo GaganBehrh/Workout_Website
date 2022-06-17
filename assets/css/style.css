@@ -125,12 +125,21 @@ margin-top: -20px;
 /*footer section*/
 
 footer{
-    background-color: yellow;
+   background: #242323;
+   overflow: auto;
+   height: 50px;
+}
+
+#socialmedia{
+    position: relative;
+    bottom: -10px;
 }
 #socialmedia li {
     float:right;
     list-style-type: none;
     margin-right: 277px; 
+    
+    
 }
 #socialmedia img{
     width: 25px;
