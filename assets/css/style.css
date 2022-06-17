@@ -103,6 +103,7 @@ margin-top:120px
 
 #centers h1{
     color: #fafafa;
+    width: 100%;
 
     
    }
@@ -111,13 +112,15 @@ margin-top:120px
     width: 20%;
     height: 300px;
     float: left;
-    padding: 230px 0px 0px 30px;
+    padding: 230px 0px -15px 125px;
     text-align:center;
 }
 #centers button{
     background-color: white;
     border-radius:5px;
     border: 10px solid white;
+    margin-left: 50%;
+    margin-top: 20%;
 }
 .innercenter{
     margin-top:40px;
@@ -131,13 +134,13 @@ margin-top:120px
     text-align: center;
     margin-top: 40px;
     letter-spacing: 20px;
+    width: 100%;
 }
 #centersbutton{
     background-color: black;
     color:white;
     font-size:30px;
     text-emphasis: bold;
-  width: auto;
 }
 /*footer section*/
 
@@ -145,6 +148,7 @@ footer{
    background: #242323;
    overflow: auto;
    height: 50px;
+   width: 100%;
 }
 
 #socialmedia{
@@ -154,7 +158,7 @@ footer{
 #socialmedia li {
     float:right;
     list-style-type: none;
-    margin-right: 286px; 
+    margin-right: 200px; 
     
     
 }
@@ -173,7 +177,7 @@ footer{
 
 @media screen and (max-width:1200px) {
     #remote_exercise{
-        width:65%;
+        width:100%;
         height:800px;
         margin:  0 auto;
 
@@ -208,3 +212,4 @@ height: 700px;
 .SignUpContainer{
     width:100%;
 }
+
