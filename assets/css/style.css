@@ -5,6 +5,9 @@
     padding:0;
 }
 
+.container{
+    width:100%;
+}
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:blueviolet;
@@ -73,15 +76,16 @@ h1{
     height:600px;
 }
 #remote_exercise h1{
+    width: 100%;
     letter-spacing: 20px;
     margin-top: -80px;
-    display: flex;
-    justify-content: center;
+    display:flex;
+justify-content: center; 
     align-items: center; 
     font-size: 50px;
 }    
 #remote_exercise img{
-    width: 65%;
+    width: 100%;
     height: 600px;
     margin: 0 auto;
     display: block;
@@ -133,6 +137,7 @@ margin-top:120px
     color:white;
     font-size:30px;
     text-emphasis: bold;
+  width: auto;
 }
 /*footer section*/
 
@@ -199,4 +204,7 @@ background-size: cover;
 background-position:center;
 width:100%;
 height: 700px;
+}
+.SignUpContainer{
+    width:100%;
 }
