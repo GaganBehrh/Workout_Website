@@ -99,9 +99,31 @@ margin-top: -20px;
 }
 /*Remote Section*/
 #centers{
-    margin:0 auto;
-    display: block;
-    margin-top: 100px;
+ background: url("../images/centersimage.jpg") no-repeat center center;
+background-size: cover;
+background-position:center;
+width:100%;
+overflow:hidden;
+margin-top:120px
+}
+
+#centers h1{
+    color: #fafafa;
+
+    
+   }
+#centers div{
+    color:#fafafa;
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 230px 0px 0px 30px;
+    text-align:center;
+}
+#centers button{
+    background-color: white;
+    border-radius:5px;
+    border: 10px solid white;
 }
 .innercenter{
     margin-top:40px;
