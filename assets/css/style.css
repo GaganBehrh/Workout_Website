@@ -124,15 +124,19 @@ margin-top: -20px;
 }
 /*footer section*/
 
-
+footer{
+    background-color: yellow;
+}
 #socialmedia li {
-  text-align: center;
-  display: inline;
+    float:right;
+    list-style-type: none;
+    margin-right: 277px; 
 }
 #socialmedia img{
     width: 25px;
     height: 25px;
     float: right;
+    
 } 
 
 
