@@ -1,172 +1,189 @@
 /*Removing the default border and margin values*/
-*{
+* {
     margin: 0;
-    border:0;
-    padding:0;
+    border: 0;
+    padding: 0;
 }
 
-.container{
-    width:100%;
+.container {
+    width: 100%;
 }
-body{
+
+body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:blueviolet;
-    font-weight:250;
-    color:#3a3a3a;
+    color: blueviolet;
+    font-weight: 250;
+    color: #3a3a3a;
 }
+
 /*Style for the Home page*/
 /*logo*/
-h1{
+h1 {
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#242323;
+    color: #242323;
 }
 
 /*Aligining the menu and logo in the header using line-height*/
-#menu,#logo{
-    line-height:75px;  
+#menu,
+#logo {
+    line-height: 75px;
 }
-#logo{
-    float:left;
+
+#logo {
+    float: left;
     font-size: 250%;
     margin-left: 20px;
 
 }
+
 /* menu items*/
-#menu{
-    font-size:100%;
+#menu {
+    font-size: 100%;
     letter-spacing: 4px;
 }
 
 
-#menu li{
-    float:right;
+#menu li {
+    float: right;
     list-style-type: none;
     margin-right: 30px;
     text-decoration: none;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
 /*when we hover it a line appears with the following thickness*/
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
 /*Workout Image styling*/
-#workout-outer{
+#workout-outer {
     width: 100%;
     height: 600px;
-    overflow: hidden; /* to clear the header so that theres no overlpa between heading and the image*/
+    overflow: hidden;
+    /* to clear the header so that theres no overlpa between heading and the image*/
 }
 
 /*Adding and styling the Image*/
-#workout-image{
+#workout-image {
     width: 100%;
     height: 600px;
     /*Adding the image as background*/
     background: url("../images/workout_image.webp") no-repeat;
 }
+
 /*Remote Exercise Section*/
-#remote_exercise{
-    height:600px;
+#remote_exercise {
+    height: 600px;
 }
-#remote_exercise h1{
+
+#remote_exercise h1 {
     width: 100%;
     letter-spacing: 20px;
     margin-top: -80px;
-    display:flex;
-justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 50px;
-}    
-#remote_exercise img{
+}
+
+#remote_exercise img {
     width: 100%;
     height: 600px;
     margin: 0 auto;
     display: block;
-margin-top: -20px; 
+    margin-top: -20px;
 }
-/*Remote Section*/
-#centers{
- background: url("../images/centersimage.jpg") no-repeat center center;
-background-size: cover;
-background-position:center;
-width:100%;
-overflow:hidden;
-margin-top:120px;
-height:600px;
-}
-#center{
-   width:600px;
-   height:500px;
-   background-color: #fafafa;
-   float: right;
-   clear: left;
-   opacity: 0.7;
-   border-radius: 40px;
-   margin-left: 794px;
-   margin-top: 6%;
-   }
 
-   #center h2{
-    color:#000000;
-    letter-spacing:2px;
+/*Remote Section*/
+#centers {
+    background: url("../images/centersimage.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 120px;
+    height: 600px;
+}
+
+#center {
+    width: 600px;
+    height: 500px;
+    background-color: #fafafa;
+    float: right;
+    clear: left;
+    opacity: 0.7;
+    border-radius: 40px;
+    margin-left: 794px;
+    margin-top: 6%;
+}
+
+#center h2 {
+    color: #000000;
+    letter-spacing: 2px;
     margin-top: 16%;
     text-transform: uppercase;
-    font-size:150%;
+    font-size: 150%;
     font-size: 22px;
-    }
+}
 
-#centers h1{
+#centers h1 {
     color: #fafafa;
-    width: 100%;  
+    width: 100%;
 
-   }
-#centers div{
-    color:#fafafa;
+}
+
+#centers div {
+    color: #fafafa;
     width: 20%;
     height: 300px;
     float: left;
     padding: 230px 0px -15px 125px;
-    text-align:center;
+    text-align: center;
 }
-#centers button{
+
+#centers button {
     background-color: white;
-    border-radius:5px;
+    border-radius: 5px;
     border: 10px solid white;
     margin-left: 50%;
     margin-top: 20%;
 }
-.innercenter{
-    margin-top:40px;
+
+.innercenter {
+    margin-top: 40px;
 }
 
-.innercenter img{
-    border-radius:20px;
+.innercenter img {
+    border-radius: 20px;
 }
 
-#centers h1{
+#centers h1 {
     text-align: center;
     margin-top: 40px;
-    letter-spacing:20px;
+    letter-spacing: 20px;
     width: 100%;
 }
-#centersbutton{
+
+#centersbutton {
     background-color: black;
-    color:white;
-    font-size:30px;
+    color: white;
+    font-size: 30px;
     text-emphasis: bold;
 }
+
 /*footer section*/
-footer{
+footer {
     height: 150px;
     background-color: #777777;
 }
+
 .socialmedia {
     text-align: center;
 }
@@ -189,84 +206,153 @@ footer{
 /*For larger to medium screens size from 1200px and down*/
 
 @media screen and (max-width:1200px) {
-    
-    #remote_exercise{
-        width:100%;
-        height:800px;
-        margin:  0 auto;
-}
-   
-#remote_exercise h1{
-    padding: 30px 0;
-    margin: 0;
-    width: 100%;
-    text-align: center;
+
+    #remote_exercise {
+        width: 100%;
+        height: 800px;
+        margin: 0 auto;
     }
-    #remote_exercise img{
+    #workout-image {
+        width: 100%;
+        height: 600px;
+        /*Adding the image as background*/
+        background: url("../images/workout_image.webp") no-repeat;
+        background-image: cover;
+    }
+
+    #remote_exercise h1 {
+        padding: 30px 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #remote_exercise img {
         padding: 30px 0;
         margin: 0 auto;
         display: block;
         width: 100%;
-        }
-
-        *centers h1{
-            text-align: center;
-        }
-       #center{
-   width:650px;
-   height:500px;
-   background-color: #fafafa;
-   float: right;
-   clear: left;
-   opacity: 0.7;
-   border-radius: 40px;
-   margin-left: 640px;
-   margin-top: 6%;
-   }
-
-   #center h2{
-    color:#000000;
-    letter-spacing:2px;
-    margin-top: 16%;
-    text-transform: uppercase;
-    font-size:150%;
-    font-size: 22px;
     }
 
-    footer{
+    *centers h1 {
+        text-align: center;
+    }
+
+    #center {
+        width: 650px;
+        height: 500px;
+        background-color: #fafafa;
+        float: right;
+        clear: left;
+        opacity: 0.7;
+        border-radius: 40px;
+        margin-left: 640px;
+        margin-top: 6%;
+    }
+
+    #center h2 {
+        color: #000000;
+        letter-spacing: 2px;
+        margin-top: 16%;
+        text-transform: uppercase;
+        font-size: 150%;
+        font-size: 22px;
+    }
+
+    footer {
         height: auto;
         width: 100%;
-     }
-    
+    }
+
 }
+
 /*For screens upto size from 950px and down*/
 
-@media screen  and (max-width: 950px) {
-    #menu{
-        clear:left;
-        float:left;
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
         padding: 20px 20px 20px 20px;
         line-height: 25px;
     }
-    #centers div{
-        margin-left:30%;
+
+    #centers div {
+        margin-left: 30%;
         margin-top: 6%;
         width: 36%;
-        height:262px;
+        height: 262px;
+    }
+}
+
+/*For screens upto size from 360px and down*/
+
+@media screen and (max-width: 360px) {
+    #menu {
+        clear: left;
+        float: left;
+        padding: 0;
+        line-height: 25px;
+    }
+
+   
+    #remote_exercise {
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    #remote_exercise h1 {
+        padding: 30px 0;
+        margin: 0;
+        width: 100%;
+        font-size: 212%;
+        text-align: center;
+    }
+
+    #remote_exercise img {
+        padding: 30px 0;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        height:300px;
+    }
+
+    *centers h1 {
+        text-align: center;
+    }
+
+  
+
+    #center h2 {
+        color: #000000;
+        letter-spacing: 2px;
+        margin-top: 16%;
+        text-transform: uppercase;
+        font-size: 150%;
+        font-size: 22px;
+    }
+    #centers div {
+        margin-left: 21%;
+        margin-top: 6%;
+        width: 60%;
+        height: 260px;
         }
+    footer {
+        height: auto;
+        width: 100%;
+    }
 }
 
 /*Style for the SignUp page*/
-.coverpic{
-    
-background:url("../images/workout_image_3.webp") no-repeat center center;
-background-size: cover;
-background-position:center;
-width:100%;
-height: 700px;
-}
-.SignUpContainer{
-    width:100%;
+.coverpic {
+
+    background: url("../images/workout_image_3.webp") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
 }
 
-
+.SignUpContainer {
+    width: 100%;
+}
