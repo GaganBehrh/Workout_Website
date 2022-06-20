@@ -265,7 +265,7 @@ footer {
 /*Styling for SignUp page ends here */
 
 
-/*Styling for trainings section*/
+/*Styling for trainings section starts here*/
 * {
     margin: 0;
     border: 0;
@@ -327,7 +327,7 @@ h1 {
 }
 
 .workout_videos{
-    margin-top: 50px;
+    margin-top: 0px;
     column-count: 3;
     border-radius: 20px;
 }
@@ -437,6 +437,7 @@ h1 {
     #menu {
         clear: left;
         float: left;
+        
         padding: 0;
         line-height: 25px;
     }
@@ -502,4 +503,17 @@ h1 {
         padding: 5%;
         color: #000000;
     }     
+
+    .workout_videos{
+        margin-top: 0px;
+        column-count: 1;
+        border-radius: 20px;
+        height: 800px;
+
+    }
+    #videos{
+        width: 50%;
+        height: 100px;
+    }
+
 }
