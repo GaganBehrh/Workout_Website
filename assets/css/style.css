@@ -326,6 +326,23 @@ h1 {
     border-bottom: 1px solid #f1dddd;
 }
 
+.workout_videos{
+    margin-top: 50px;
+    column-count: 3;
+    border-radius: 20px;
+}
+.workout_videos ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+#videos{
+    border-radius: 40px;
+    margin-top: 20px;
+    width:420px;
+    height:400px; 
+}
 
 
 /*Sytling for trainings section ends here*/
