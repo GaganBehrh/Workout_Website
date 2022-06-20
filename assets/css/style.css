@@ -1,3 +1,4 @@
+/*Style for Home Page*/h
 /*Removing the default border and margin values*/
 * {
     margin: 0;
@@ -54,7 +55,7 @@ h1 {
 
 #menu a {
     text-decoration: none;
-    color: #3a3a3a;
+    color: #d64343;
 }
 
 /*when we hover it a line appears with the following thickness*/
@@ -100,8 +101,6 @@ h1 {
     display: block;
     margin-top: -20px;
 }
-
-/*Remote Section*/
 #centers {
     background: url("../images/centersimage.jpg") no-repeat center center;
     background-size: cover;
@@ -199,84 +198,198 @@ footer {
     color: #000000;
 }
 
+/*Home Page styling ends here*/
 
+/*Style for the SignUp  page starts here*/
+
+#menu a{
+    color:blue;
+}
+#coverpic {
+    background: url("../images/workout_image_3.webp") no-repeat center center;
+    width: 50%;
+    height: 600px;
+}
+
+#SignUpform{
+    background-color: #7FFF00;
+    width: 20%;
+    height:300px;
+    margin-top: -511px;
+    float: right;
+    border-radius: 20px;
+    margin-right: 200px;
+}
+form{
+    padding: 77px 17px 32px 21px;
+    white-space: nowrap;
+    font-size: 20px;
+    margin-top:-40px;
+}
+
+footer {
+    height: 220px;
+    background-color: #777777;
+}
+#SignUpform h1{
+    text-align: center;
+    margin-top: 20px;
+}
+#SignUpform button{
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    background-color:#0e0d0c;
+    color:white;
+}
+.fname{
+    width: 111px;
+    border-radius: 20px;
+}
+
+.lname{
+    width: 118px;
+    border-radius: 20px;
+}
+
+.email{
+    width: 159px;
+    border-radius: 20px;
+}
+/*Styling for SignUp page ends here */
+
+
+/*Styling for trainings section*/
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    font-weight: 250;
+    color: #3a3a3a;
+}
+
+/*logo*/
+h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3fd350;
+}
+
+#menu,#logo {
+    line-height: 75px;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 20px;
+
+}
+
+/* menu items*/
+#menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+}
+
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #812626;
+}
+
+/*when we hover it a line appears with the following thickness*/
+#menu a:hover {
+    border-bottom: 1px solid #f1dddd;
+}
+
+
+
+/*Sytling for trainings section ends here*/
 
 /*Media Queries*/
 
 /*For larger to medium screens size from 1200px and down*/
 
-@media screen and (max-width:1200px) {
+    @media screen and (max-width:1200px) {
 
-    #remote_exercise {
-        width: 100%;
-        height: 800px;
-        margin: 0 auto;
+        #remote_exercise {
+            width: 100%;
+            height: 800px;
+            margin: 0 auto;
+        }
+    
+        #workout-image {
+            width: 100%;
+            height: 600px;
+            /*Adding the image as background*/
+            background: url("../images/workout_image.webp") no-repeat;
+            background-image: cover;
+        }
+    
+        #remote_exercise h1 {
+            padding: 30px 0;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+        }
+    
+        #remote_exercise img {
+            padding: 30px 0;
+            margin: 0 auto;
+            display: block;
+            width: 100%;
+        }
+    
+        *centers h1 {
+            text-align: center;
+        }
+    
+        #center {
+            width: 650px;
+            height: 500px;
+            background-color: #fafafa;
+            float: right;
+            clear: left;
+            opacity: 0.7;
+            border-radius: 40px;
+            margin-left: 640px;
+            margin-top: 6%;
+        }
+    
+        #center h2 {
+            color: #000000;
+            letter-spacing: 2px;
+            margin-top: 16%;
+            text-transform: uppercase;
+            font-size: 150%;
+            font-size: 22px;
+        }
+    
+        footer {
+            height: auto;
+            width: 100%;
+        }
     }
-
-    #workout-image {
-        width: 100%;
-        height: 600px;
-        /*Adding the image as background*/
-        background: url("../images/workout_image.webp") no-repeat;
-        background-image: cover;
-    }
-
-    #remote_exercise h1 {
-        padding: 30px 0;
-        margin: 0;
-        width: 100%;
-        text-align: center;
-    }
-
-    #remote_exercise img {
-        padding: 30px 0;
-        margin: 0 auto;
-        display: block;
-        width: 100%;
-    }
-
-    *centers h1 {
-        text-align: center;
-    }
-
-    #center {
-        width: 650px;
-        height: 500px;
-        background-color: #fafafa;
-        float: right;
-        clear: left;
-        opacity: 0.7;
-        border-radius: 40px;
-        margin-left: 640px;
-        margin-top: 6%;
-    }
-
-    #center h2 {
-        color: #000000;
-        letter-spacing: 2px;
-        margin-top: 16%;
-        text-transform: uppercase;
-        font-size: 150%;
-        font-size: 22px;
-    }
-
-    footer {
-        height: auto;
-        width: 100%;
-    }
-
-    /*SignUp form*/
-    #SignUpcontainer {
-        width: 100%;
-        height: 200px;
-    }
-    #coverpic {
-        
-        width: 50%;
-        height: 400px;
-    }
-
-}
+    
 
 /*For screens upto size from 950px and down*/
 
@@ -367,64 +480,4 @@ footer {
         padding: 5%;
         color: #000000;
     }     
-}
-
-/*Style for the SignUp page*/
-#coverpic {
-    background: url("../images/workout_image_3.webp") no-repeat center center;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 800px;
-}
-
-#SignUpcontainer {
-    width: 100%;
-}
-
-#SignUpform{
-    background-color: #7FFF00;
-    width: 20%;
-    height:300px;
-    margin-top: -511px;
-    float: right;
-    border-radius: 20px;
-    margin-right: 200px;
-}
-form{
-    padding: 77px 17px 32px 21px;
-    white-space: nowrap;
-    font-size: 20px;
-    margin-top:-40px;
-}
-
-footer {
-    height: 220px;
-    background-color: #777777;
-}
-#SignUpform h1{
-    text-align: center;
-    margin-top: 20px;
-}
-#SignUpform button{
-    padding: 10px;
-    margin: 0 auto;
-    display: block;
-    border-radius: 10px;
-    background-color:#0e0d0c;
-    color:white;
-}
-.fname{
-    width: 150px;
-    border-radius: 20px;
-}
-
-.lname{
-    width: 154px;
-    border-radius: 20px;
-}
-
-.email{
-    width: 195px;
-    border-radius: 20px;
 }
