@@ -429,6 +429,21 @@ h1 {
         width: 36%;
         height: 262px;
     }
+    .workout_videos{
+        margin-top: 0px;
+        column-count: 3;
+        border-radius: 20px;
+        height: 800px;
+        font-size: 25px;
+    }
+    .workout_videos li{
+        font-size: 25px;
+    };
+    #videos{
+        width:500px;
+        height: 250px;
+        
+    }
 }
 
 /*For screens upto size from 360px and above*/
