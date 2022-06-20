@@ -207,15 +207,16 @@ footer {
 }
 #coverpic {
     background: url("../images/workout_image_3.webp") no-repeat center center;
-    width: 50%;
+    width: 70%;
     height: 600px;
+    margin-left: -3px;
 }
 
 #SignUpform{
     background-color: #7FFF00;
     width: 20%;
     height:300px;
-    margin-top: -511px;
+    margin-top: -456px;
     float: right;
     border-radius: 20px;
     margin-right: 200px;
@@ -225,6 +226,8 @@ form{
     white-space: nowrap;
     font-size: 20px;
     margin-top:-40px;
+    margin-left: 20px;
+
 }
 
 footer {
@@ -234,6 +237,8 @@ footer {
 #SignUpform h1{
     text-align: center;
     margin-top: 20px;
+    color:black;
+  
 }
 #SignUpform button{
     padding: 10px;
