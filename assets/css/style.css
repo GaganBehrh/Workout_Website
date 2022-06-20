@@ -55,7 +55,7 @@ h1 {
 
 #menu a {
     text-decoration: none;
-    color: #d64343;
+    color: #45a6ea;
 }
 
 /*when we hover it a line appears with the following thickness*/
@@ -318,7 +318,7 @@ h1 {
 
 #menu a {
     text-decoration: none;
-    color: #812626;
+    color: #7ec27e;
 }
 
 /*when we hover it a line appears with the following thickness*/
@@ -455,6 +455,11 @@ h1 {
         padding: 0;
         line-height: 25px;
     }
+    #menu li {
+        
+        color:white;
+    }
+
 
     #remote_exercise {
         width: 100%;
@@ -528,6 +533,17 @@ h1 {
     #videos{
         width: 50%;
         height: 100px;
+    }
+
+    #SignUpform {
+        width:0%;
+        margin-top:-107%;
+    }
+    #coverpic {
+        background: url("../images/workout_image_3.webp") no-repeat center center;
+        width: 100%;
+        height: 600px;
+        margin-left: -3px;
     }
 
 }
