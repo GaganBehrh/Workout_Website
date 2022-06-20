@@ -395,9 +395,36 @@ form{
     padding: 77px 17px 32px 21px;
     white-space: nowrap;
     font-size: 20px;
+    margin-top:-40px;
 }
 
 footer {
     height: 220px;
     background-color: #777777;
+}
+#SignUpform h1{
+    text-align: center;
+    margin-top: 20px;
+}
+#SignUpform button{
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    background-color:#0e0d0c;
+    color:white;
+}
+.fname{
+    width: 150px;
+    border-radius: 20px;
+}
+
+.lname{
+    width: 154px;
+    border-radius: 20px;
+}
+
+.email{
+    width: 195px;
+    border-radius: 20px;
 }
