@@ -8,7 +8,7 @@ This wesite has three pages overall.
 2.Trainings Page
 3.SignUpPage
 
-**LandingPage**: It has four different sections
+####**LandingPage**: It has four different sections
 
 1.Section 1: Navigation Bar: It has logo and three options to navigate the Home Page, Trainings page and the ignUp page
 
