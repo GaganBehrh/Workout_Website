@@ -8,7 +8,7 @@ This wesite has three pages overall.
 2.Trainings Page
 3.SignUpPage
 
-LandingPage: It has four different sections
+**LandingPage**: It has four different sections
 
 1.Section 1: Navigation Bar: It has logo and three options to navigate the Home Page, Trainings page and the ignUp page
 
@@ -24,7 +24,7 @@ This section shows where are the various gym centres located in Zurich Switzerla
 ![image](https://user-images.githubusercontent.com/63474017/174800114-3a2ff41e-3f4c-4bd9-b471-a68101ca5075.png)
 
 
-Trainings Page:It consists of three sections
+**Trainings Page**:It consists of three sections
 1.Section 1:Navigation Bar: Same as Landing Page
 
 2.Workout Video Section: It shows different kinds of videos ranging from streching exercies, Semi- Intensive workout to Intensive workout
@@ -34,7 +34,7 @@ Trainings Page:It consists of three sections
 3.Section 3: Footer Section:Same as Footer Section in Landing Page
 
 
-SignUp Page:
+**SignUp Page**:
 This Page also has three sections
 1.Section 1:Navigation Bar: Same as Landing Page
 
@@ -45,7 +45,7 @@ This Page also has three sections
 
 
 
-Testing:
+**Testing**:
 CSS
 No errors were found when passing through the official (Jigsaw) validator
 HTML
@@ -54,14 +54,14 @@ The website is responsive on diffent screen sizes such as (max-width:1200px,950p
 
 
 
-Deployment
+**Deployment**
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - to be filled............................
 
-Credits
+**Credits**
 Media:
 1. The media/videos on the training page was taken from Youtube.
 2. The logos are taken from Font-awesome
