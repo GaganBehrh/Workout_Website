@@ -201,7 +201,7 @@ footer {
 /*Home Page styling ends here*/
 
 /*Style for the SignUp  page starts here*/
-.SignUpcontainer{
+.outer-signup-box{
     width:100%;
     display: flex;
     align-items:center;
@@ -242,6 +242,8 @@ form{
 form h1{
     margin-top: 20px;
     color:black;
+    margin: 7px 27px 14px;
+    
 }
 input{
     padding: 10px;
@@ -250,13 +252,14 @@ input{
     outline: none;
     display: block;
     margin: 0 auto;
-    width: 60%;
-    margin: 7px 0 -26px;
+    width: 80%;
+    margin: 7px 2px -26px;
 }
 label{
     font-weight:500;
     font-size: 15px;
    text-align: center;
+   margin: 7px 52px -26px;
 }
 form button{
     padding: 20px;
@@ -264,8 +267,8 @@ form button{
     border:1px solid black ;
     outline: none;
     display: block;
-    width: 100%;
-    margin: 18px 0 10px;
+    width: 60%;
+    margin: 18px 34px 10px;
     background-color: #000000;
     color:white;
 
