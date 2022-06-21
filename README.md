@@ -67,6 +67,10 @@ Media:
 2. The logos are taken from Font-awesome
 3. The Images are taken from:Google Images and from some gym centres websites such as 
 (a)https://www.sweatfxbg.com/
+(b)https://www.stacylelfitness.com/
+(c)https://www.popsugar.co.uk/fitness/25-Minute-Total-Body-Strength-Workout-46384359?utm_medium=redirect&utm_campaign=US:CH&utm_source=www.google.com
+(b)Zurich Image from Google Image
+
 
 
 
