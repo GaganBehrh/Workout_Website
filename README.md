@@ -45,3 +45,34 @@ This Page also has three sections
 
 
 
+Testing:
+CSS
+No errors were found when passing through the official (Jigsaw) validator
+HTML
+There were no errors when using official W3C validator but there were some warnings regarding the use of headers for which I have used divs instead
+The website is responsive on diffent screen sizes such as (max-width:1200px,950px and 360px)
+
+
+
+Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - to be filled............................
+
+Credits
+Media:
+1. The media/videos on the training page was taken from Youtube.
+2. The logos are taken from Font-awesome
+3. The Images are taken from:Google Images and from some gym centres websites such as 
+(a)https://www.sweatfxbg.com/
+
+
+
+
+
+
+
+
+
