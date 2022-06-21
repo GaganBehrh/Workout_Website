@@ -8,7 +8,7 @@ This wesite has three pages overall.
 2.Trainings Page
 3.SignUpPage
 
-LandingPage
+****LandingPage
 
 It has four different sections
 
