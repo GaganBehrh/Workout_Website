@@ -219,8 +219,10 @@ footer {
 flex-basis: 50%;
 }
 .col-1 img{
-    width:50%;
+    width:200%;
     display: block;
+    border-radius: 40px;
+
 }
 .col-2 form{
     width: 50%;
