@@ -214,14 +214,18 @@ footer {
     align-items: center;
     width: 100%;
     max-width: 800px;
+    flex-wrap: wrap;
 }
 .col-1,.col-2{
 flex-basis: 50%;
+flex-grow: 1;
 }
 .col-1 img{
-    width:200%;
+    width:100%;
     display: block;
     border-radius: 40px;
+    margin: 7px -26px 14px;
+    height: 510px;
 
 }
 .col-2 form{
