@@ -147,8 +147,7 @@ h1 {
 }
 
 .col-2-Centers {
-    margin: -60% 5% 4% 44%;
-    ;
+    margin: -60% 5% 4% 44%;;
     position: relative;
     background-color: #3fd350;
     border-radius: 22px;
@@ -444,12 +443,17 @@ h1 {
         line-height: 25px;
     }
 
-    #centers div {
-        margin-left: 30%;
-        margin-top: 6%;
-        width: 36%;
-        height: 262px;
-    }
+   #centersheading{
+    font-size: 34px;
+    margin-left: 7%;
+   }
+
+   .col-2-Centers {
+        margin: -79% 5% 4% 33%;
+    position: relative;
+    
+
+}
 
     .workout_videos {
         margin-top: 0px;
