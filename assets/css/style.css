@@ -127,7 +127,7 @@ h1 {
 }
 
 .col-1-Centers img {
-    width: 50%;
+    width: 100%;
     display: block;
     border-radius: 40px;
     margin: 7px -26px 14px;
@@ -145,20 +145,24 @@ h1 {
     color: #3fd350;
 }
 .col-2-Centers{
-    margin-top: -70%;
-    margin-left: 60%;
+    
+    margin: -60% 5% 4% 44%;;
+    position: relative;
+    background-color: #3fd350;
+    border-radius: 22px;
+    padding: 20px;
 
 }
 .col-2-Centers h2 {
     width: 100%;
-    background-color:rgb(53%, 36%, 95%);
-    border-radius: 20px;
+    border-radius: 40px solid white;
     text-align: center;
     color: white;
     flex-grow: 2;
     font-size: 40px;
     letter-spacing: 4px;
     text-transform: uppercase;
+    
     
 }
 
