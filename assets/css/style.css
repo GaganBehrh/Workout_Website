@@ -459,6 +459,7 @@ h1 {
         /*Adding the image as background*/
         background: url("../images/workout_image.webp") no-repeat;
         background-size: cover;
+        margin-top: 43px;
     }
 
     #remote_exercise img {
