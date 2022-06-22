@@ -17,7 +17,7 @@ It has four different sections
 
 3.Section3:Centres in Zurich in Switzerland
 This section shows where are the various gym centres located in Zurich Switzerland also showing the image of Zurich in the background
-![image](https://user-images.githubusercontent.com/63474017/174799827-66a3e00d-1302-494c-ba50-5380c6889290.png)
+![image](https://user-images.githubusercontent.com/63474017/175058669-f0381180-2f14-4c38-879c-e1e625a4085c.png)
 
 4.Section 4: Footer Section:The footer section includes links to the relevant social media sites for Workout group. The links will open to a new tab to allow easy navigation for the user.
 ![image](https://user-images.githubusercontent.com/63474017/174800114-3a2ff41e-3f4c-4bd9-b471-a68101ca5075.png)
