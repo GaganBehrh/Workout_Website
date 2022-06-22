@@ -1,5 +1,5 @@
 /*Style for Home Page*/
-h
+
 
 /*Removing the default border and margin values*/
 * {
@@ -19,15 +19,12 @@ body {
     color: #3a3a3a;
 }
 
-/*Style for the Home page*/
-/*logo*/
 h1 {
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #242323;
 }
-
 
 #menu,
 #logo {
@@ -41,12 +38,10 @@ h1 {
 
 }
 
-/* menu items*/
 #menu {
     font-size: 100%;
     letter-spacing: 4px;
 }
-
 
 #menu li {
     float: right;
@@ -60,11 +55,9 @@ h1 {
     color: #45a6ea;
 }
 
-
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
-
 
 #workout-outer {
     width: 100%;
@@ -75,12 +68,10 @@ h1 {
 #workout-image {
     width: 100%;
     height: 600px;
-
     background: url("../images/workout_image.webp") no-repeat;
     background-size: cover;
 }
 
-/*Remote Exercise Section in Home Page*/
 #remote_exercise {
     height: 600px;
 }
@@ -109,7 +100,6 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 5%;
-
     margin-top: 10%;
 }
 
@@ -148,7 +138,6 @@ h1 {
 
 .col-2-Centers {
     margin: -60% 5% 4% 44%;
-    ;
     position: relative;
     background-color: #3fd350;
     border-radius: 22px;
@@ -158,7 +147,7 @@ h1 {
 
 .col-2-Centers h2 {
     width: 100%;
-    border:2px solid white;
+    border: 2px solid white;
     border-radius: 40px;
     text-align: center;
     color: white;
@@ -221,7 +210,6 @@ footer {
     border-radius: 40px;
     margin: 7px -26px 14px;
     height: 510px;
-
 }
 
 .col-2 form {
@@ -357,7 +345,6 @@ h1 {
 }
 
 .workout_videos h2 {
-
     text-align: center;
     font-size: 30px;
     padding-bottom: 20px;
@@ -401,7 +388,6 @@ h1 {
     #workout-image {
         width: 100%;
         height: 600px;
-        /*Adding the image as background*/
         background: url("../images/workout_image.webp") no-repeat;
         background-size: cover;
     }
@@ -456,7 +442,6 @@ h1 {
     #workout-image {
         width: 100%;
         height: 252px;
-        /*Adding the image as background*/
         background: url("../images/workout_image.webp") no-repeat;
         background-size: cover;
         margin-top: 43px;
@@ -477,16 +462,18 @@ h1 {
         text-align: center;
     }
 
-    .col-1-Centers img{
+    .col-1-Centers img {
         margin-left: 1%;
     }
+
     .col-2-Centers {
         margin: -79% 5% 4% 33%;
         position: relative;
-        
+
     }
+
     .col-2-Centers h2 {
-      padding: 1px;
+        padding: 1px;
         font-size: 170%;
     }
 
@@ -538,7 +525,6 @@ h1 {
     }
 
     #menu li {
-
         color: white;
     }
 
@@ -617,7 +603,6 @@ h1 {
         column-count: 1;
         border-radius: 20px;
         height: 800px;
-
     }
 
     #video1 {
