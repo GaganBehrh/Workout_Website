@@ -104,31 +104,12 @@ h1 {
     margin-top: -20px;
 }
 
-.col-1-Centers {
-    background: url("../images/centersimage.jpg") no-repeat center center;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 120px;
-    height: 600px;
-}
 .col-1-Centers,.col-2-Centers{
     flex-basis: 50%;
 }
-#center {
-    width: 600px;
-    height: 500px;
-    background-color: #fafafa;
-    float: right;
-    clear: left;
-    opacity: 0.7;
-    border-radius: 40px;
-    margin-left: 794px;
-    margin-top: 6%;
-}
 
-#center h2 {
+
+.center h2 {
     color: #000000;
     letter-spacing: 2px;
     margin-top: 16%;
@@ -137,19 +118,46 @@ h1 {
     font-size: 22px;
 }
 
-#centers h1 {
-    color: #fafafa;
+.outer-center {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+
+.col-1-Centers,
+.col-2-Centers {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.col-1-Centers img {
+    width: 100%;
+    display: block;
+    border-radius: 40px;
+    margin: 7px -26px 14px;
+    height: 510px;
 
 }
 
-#centers div {
-    color: #fafafa;
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 230px 0px 0px 125px;
-    text-align: center;
+.col-2-Centers form {
+    width: 50%;
+    background-color: #3fd350;
+    border-radius: 20px;
+}
+
+.col-2-Centers  h2 {
+    color: black;
+    width: 100%;
 }
 
 #centers button {
@@ -159,29 +167,6 @@ h1 {
     margin-left: 50%;
     margin-top: 20%;
 }
-
-.innercenter {
-    margin-top: 40px;
-}
-
-.innercenter img {
-    border-radius: 20px;
-}
-
-#centers h1 {
-    text-align: center;
-    margin-top: 40px;
-    letter-spacing: 20px;
-    width: 100%;
-}
-
-#centersbutton {
-    background-color: black;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-}
-
 footer {
     height: 150px;
     background-color: #777777;
