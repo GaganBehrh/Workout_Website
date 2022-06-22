@@ -531,10 +531,10 @@ h1 {
         font-size: 200%;
         margin-left: 7%;
         text-align: center;
+        margin-top: -282%;
     }
-
     .col-2-Centers {
-        margin: 7% 37% 5% 4%;
+        margin: 7% 37% 5% 12%;
         position: relative;
     }
     
@@ -542,7 +542,7 @@ h1 {
         font-size: 124%;
     }
     
-    .col1-Centers img{
+    .col-1-Centers img{
        width: 100%;
        height: 300px;
        display: block;
