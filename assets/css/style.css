@@ -78,6 +78,7 @@ h1 {
     height: 600px;
 
     background: url("../images/workout_image.webp") no-repeat;
+    background-size: cover;
 }
 
 /*Remote Exercise Section in Home Page*/
@@ -103,7 +104,7 @@ h1 {
     margin-top: -20px;
 }
 
-#centers {
+.col-1-Centers {
     background: url("../images/centersimage.jpg") no-repeat center center;
     background-size: cover;
     background-position: center;
@@ -112,7 +113,9 @@ h1 {
     margin-top: 120px;
     height: 600px;
 }
-
+.col-1-Centers,.col-2-Centers{
+    flex-basis: 50%;
+}
 #center {
     width: 600px;
     height: 500px;
