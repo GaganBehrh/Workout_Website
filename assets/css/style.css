@@ -109,10 +109,11 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 5%;
+    
 }
 
 .center {
-    display: flex;
+   display: flex;
     align-items: center;
     width: 100%;
     max-width: 800px;
@@ -134,22 +135,35 @@ h1 {
 
 }
 
+#centersheading {
+    color: black;
+    width: 100%;
+    margin: -1199px 5px -12px 137px;
+    font-size: 39px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3fd350;
+}
+.col-2-Centers{
+    margin-top: -70%;
+    margin-left: 60%;
+
+}
 .col-2-Centers h2 {
-    width: 30%;
+    width: 100%;
     background-color:rgb(53%, 36%, 95%);
     border-radius: 20px;
     text-align: center;
     color: white;
+    flex-grow: 2;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
     
 }
 
 
-#centersheading {
-    color: black;
-    width: 100%;
-    margin: -1170px 5px 5px 209px;
 
-}
 
 footer {
     height: 150px;
