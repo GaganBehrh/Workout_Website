@@ -158,7 +158,8 @@ h1 {
 
 .col-2-Centers h2 {
     width: 100%;
-    border-radius: 40px solid white;
+    border:2px solid white;
+    border-radius: 40px;
     text-align: center;
     color: white;
     flex-grow: 2;
