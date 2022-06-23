@@ -1,5 +1,4 @@
 /*Style for Home Page*/
-h
 
 /*Removing the default border and margin values*/
 * {
@@ -41,7 +40,7 @@ h1 {
 
 }
 
-/* menu items*/
+
 #menu {
     font-size: 100%;
     letter-spacing: 4px;
@@ -75,12 +74,10 @@ h1 {
 #workout-image {
     width: 100%;
     height: 600px;
-
     background: url("../images/workout_image.webp") no-repeat;
     background-size: cover;
 }
 
-/*Remote Exercise Section in Home Page*/
 #remote_exercise {
     height: 600px;
 }
@@ -166,8 +163,6 @@ h1 {
     font-size: 40px;
     letter-spacing: 4px;
     text-transform: uppercase;
-
-
 }
 
 footer {
@@ -306,7 +301,6 @@ body {
     color: #3a3a3a;
 }
 
-/*logo*/
 h1 {
     font-family: sans-serif;
     text-transform: uppercase;
@@ -326,7 +320,6 @@ h1 {
 
 }
 
-/* menu items*/
 #menu {
     font-size: 100%;
     letter-spacing: 4px;
