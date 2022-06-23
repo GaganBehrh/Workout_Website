@@ -2,6 +2,13 @@
 A fully responsive website using CSS and HTML5.
 Workout Website is a site that hopes to keep people healthy and shows different kinds of workouts possible both at gym and at home with no equipments in Zurich Switzerland. The site will be targeted toward people who are interested to worlout, to socialise and keep themselves fit. There is a possibilty to join the community both online or on the gym site by registering themselves on the SignUp page at different centres in Zurich Switzerland.
 
+User story:
+(a)As a user, I want to be able to Signup up for the membership for the gym.
+(b)As a user , I want to know where are the different centers of gym in Zurich.
+(c)As a user, I want to know what are the different levels of trainings provided by the gym depending on the Intensity level
+(d)As a user, I want to able to do the workout remotely if I cant go gym
+(e) As a user, I would like access the socila media links for the gym
+
 Features
 This wesite has three pages overall. 
 1.Landing Page/Home Page
@@ -17,7 +24,7 @@ It has four different sections
 
 3.Section3:Centres in Zurich in Switzerland
 This section shows where are the various gym centres located in Zurich Switzerland also showing the image of Zurich in the background
-![image](https://user-images.githubusercontent.com/63474017/174799827-66a3e00d-1302-494c-ba50-5380c6889290.png)
+![image](https://user-images.githubusercontent.com/63474017/175058669-f0381180-2f14-4c38-879c-e1e625a4085c.png)
 
 4.Section 4: Footer Section:The footer section includes links to the relevant social media sites for Workout group. The links will open to a new tab to allow easy navigation for the user.
 ![image](https://user-images.githubusercontent.com/63474017/174800114-3a2ff41e-3f4c-4bd9-b471-a68101ca5075.png)
@@ -43,14 +50,27 @@ This Page also has three sections
 3.Section 3: Footer Section:Same as Footer Section in Landing Page
 
 
-
 **Testing**
 CSS
 No errors were found when passing through the official (Jigsaw) validator
 HTML
 There were no errors when using official W3C validator but there were some warnings regarding the use of headers for which I have used divs instead
 
-The website is responsive on diffent screen sizes such as (max-width:1200px,950px and 360px)
+Manual Testing: Accessibilty test results were found to be 88%.
+
+Testing of Userstories:
+(a)As a user, I want to be able to Signup up for the membership for the gym.
+Test Result: Pass, reason:I found a Signup page for this userstory
+
+(b)As a user , I want to know where are the different centers of gym in Zurich.
+Test Result:Pass, reason: There is a section in Home page which shows different areas in Zurich where gyms are present
+(c)As a user, I want to know what are the different levels of trainings provided by the gym depending on the Intensity level
+Test Result: Pass, reason:This is found in Trainings page
+(d)As a user, I want to able to do the workout remotely if I cant go gym
+Test Result: Pass, reason:There are videos found in Trainings Page, so I can train myself remotely from anywhere
+(e) As a user, I would like access the social media links for the gym
+Test Result: Pass, reason:There are social media links found in the footer section of each page
+The website is responsive on diffent screen sizes such as (max-width:1200px,950px and 360px)... change here
 
 
 
