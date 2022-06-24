@@ -144,8 +144,6 @@ h1 {
 
 .col-2-Centers h2 {
     width: 100%;
-    border: 2px solid white;
-    border-radius: 40px;
     text-align: center;
     color: white;
     flex-grow: 2;
@@ -501,9 +499,19 @@ h1 {
     }
 
     .remote_exercise h1 {
-        margin-left: 50px;
+        margin-left: 0px;
+        text-align: center;
+        letter-spacing: 2px;
     }
-
+    .centersheading{
+        margin-left: -26px;
+    }
+    .col-2-Centers h2{
+        margin: -16px 30px 36px -224px;
+    }
+   .col-2 h1{
+    margin-left: -8px;
+   }
 }
 
 /*For screens upto size from 480px and down*/
@@ -518,7 +526,7 @@ h1 {
     }
     .col-2-Centers h2{
         margin: -27px 33px 32px -214px;
-        
+
     }
 }
 /*
