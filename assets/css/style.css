@@ -425,9 +425,9 @@ h1 {
         letter-spacing: 4px;
         
     }
-    #centertitle{
+    .centersheading{
         margin-right: 120px;
-        margin-top: -129%;
+        margin-bottom: -200%;
         letter-spacing: 4px;
         text-align: center;
     }
@@ -552,12 +552,13 @@ h1 {
     .remote_exercise img{
         height: 256px;
     }
-    .centersheading {
-        margin-left: 52px;
-        margin-top: -318%;
+   
+    .centersheading{
+        margin-top: -324%;
+        margin-left: -16px;
+        font-size: 19px;
     }
-    #centertitle{
-    margin-top: -324%;}
+
     .col-1-Centers img {
         height: 378px;
         width: 100%;
