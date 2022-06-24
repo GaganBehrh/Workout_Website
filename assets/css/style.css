@@ -449,7 +449,12 @@ h1 {
         flex-direction: row-reverse;
     }
 
+    .remote_exercise h1 {
+        margin-left: 50px;
+    }
+
 }
+
 @media (max-width: 1024px) {
 
     .menu {
@@ -457,15 +462,37 @@ h1 {
         align-items: center;
         justify-content: center;
         float: left;
-        margin: 47px 2px 2px -445px;;
+        margin: 47px 2px 2px -445px;
+        ;
         flex-direction: row-reverse;
     }
-    .workout_videos{
+
+    .workout_videos {
         margin-top: 5%;
     }
-    
-    .workout_videos h2{
+
+    .workout_videos h2 {
         font-size: 25px;
+    }
+
+    .remote_exercise h1 {
+        text-align: center;
+        margin-left: -4.26rem;
+    }
+    
+
+    .center {
+        margin-top: 202px;
+    }
+
+    .centersheading {
+        text-align: center;
+        font-size: 52px;
+        margin-left: -98px;
+    }
+    .col-1-Centers img{
+        height: 437px;
+        width: 76%;
     }
 
 }
