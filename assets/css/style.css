@@ -137,7 +137,6 @@ h1 {
 .col-2-Centers {
     margin: -60% 5% 4% 44%;
     position: relative;
-    background-color: #3fd350;
     border-radius: 22px;
     padding: 20px;
 
@@ -479,7 +478,7 @@ h1 {
         text-align: center;
         margin-left: -4.26rem;
     }
-    
+
 
     .center {
         margin-top: 202px;
@@ -490,9 +489,15 @@ h1 {
         font-size: 52px;
         margin-left: -98px;
     }
-    .col-1-Centers img{
+
+    .col-1-Centers img {
         height: 437px;
         width: 76%;
+    }
+
+    .col-2-Centers h2 {
+        display: block;
+        margin: 22px 30px 36px -279px;
     }
 
 }
