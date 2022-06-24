@@ -124,16 +124,6 @@ h1 {
 
 }
 
-.centersheading {
-    color: black;
-    width: 100%;
-    margin: -1199px 5px -12px 137px;
-    font-size: 39px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #3fd350;
-}
-
 .col-2-Centers {
     margin: -60% 5% 4% 44%;
     position: relative;
@@ -147,10 +137,24 @@ h1 {
     text-align: center;
     color: white;
     flex-grow: 2;
-    font-size: 40px;
+    font-size: 60px;
     letter-spacing: 4px;
     text-transform: uppercase;
+    margin-top: -50px;
 }
+.col-2-Centers h3 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    flex-grow: 2;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 footer {
     height: 150px;
@@ -426,6 +430,9 @@ h1 {
         
     }
     .centersheading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-right: 120px;
         margin-bottom: -200%;
         letter-spacing: 4px;
@@ -553,19 +560,21 @@ h1 {
         height: 256px;
     }
    
-    .centersheading{
-        margin-top: -324%;
-        margin-left: -16px;
-        font-size: 19px;
-    }
+    
 
     .col-1-Centers img {
         height: 378px;
         width: 100%;
     }
     .col-2-Centers h2{
-        font-size: 20px;
-        margin: -11px -59px 18px -116px;
+        font-size: 30px;
+        margin: -394px -59px 18px -116px;
+        color: #3fd350;
+    }
+    .col-2-Centers h3{
+        font-size: 30px;
+        margin: 71px -49px 29px -92px;
+        color: white;
        
     }
     .col-2 form{
