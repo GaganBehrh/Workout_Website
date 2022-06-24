@@ -517,6 +517,9 @@ h1 {
 /*For screens upto size from 480px and down*/
 
 @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 144%;
+    }
     .remote_exercise h1{
        margin-left: 0px;
     }
