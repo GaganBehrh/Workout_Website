@@ -369,7 +369,7 @@ h1 {
 
 /*Media Queries*/
 
-/*For larger to medium screens size from 1200px and down*/
+/*For larger to medium screens size from 1200px (1025px-1200px)*/
 
 @media screen and (max-width:1200px) {
 
@@ -406,7 +406,7 @@ h1 {
     }
 
     .centersheading {
-        margin-left: 104px;
+        margin-left: 61px;
     }
 
     footer {
