@@ -415,6 +415,21 @@ h1 {
     }
 }
 
+/*For screens upto size from 1200px and above*/
+@media screen and (min-width: 1200px) {
+.centersheading {
+    margin-left: -2px;
+    letter-spacing: 10px;
+}
+.menu a {
+    color: #7ec27e;
+}
+.col-2-Centers{
+    margin-left: 42%;
+}
+
+}
+
 
 /*For screens upto size from 950px and down*/
 
