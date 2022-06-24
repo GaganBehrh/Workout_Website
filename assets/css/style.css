@@ -384,9 +384,10 @@ h1 {
     }
 }
 
-/*For larger to medium screens size from 1200px (1025px-1200px)*/
 
-@media (min-width: 1025px) and (max-width: 1200px) {
+
+/*For screens upto size from 1200px and below*/
+@media screen and (max-width: 1200px) {
 
     .remote_exercise {
         width: 100%;
@@ -435,7 +436,7 @@ h1 {
     }
 }
 
-/*For screens upto size from 769px to 1024px*/
+
 
 @media (max-width: 769px) {
 
@@ -453,6 +454,7 @@ h1 {
     }
 
 }
+/*For screens upto size from 1024px and below*/
 
 @media (max-width: 1024px) {
 
@@ -476,7 +478,7 @@ h1 {
 
     .remote_exercise h1 {
         text-align: center;
-        margin-left: -4.26rem;
+        margin-left: -0.74rem;
     }
 
 
@@ -492,12 +494,12 @@ h1 {
 
     .col-1-Centers img {
         height: 437px;
-        width: 76%;
+        width: 90%;
     }
 
     .col-2-Centers h2 {
         display: block;
-        margin: 22px 30px 36px -279px;
+        margin: 22px 30px 36px -224px;
     }
 
 }
