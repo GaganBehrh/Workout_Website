@@ -445,7 +445,8 @@ h1 {
         align-items: center;
         justify-content: center;
         float: left;
-        margin: 20px 2px 2px 20px;
+        margin: -17px 2px 2px 20px;
+        flex-direction: row-reverse;
     }
 
 }
