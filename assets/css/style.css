@@ -460,6 +460,13 @@ h1 {
         margin: 47px 2px 2px -445px;;
         flex-direction: row-reverse;
     }
+    .workout_videos{
+        margin-top: 5%;
+    }
+    
+    .workout_videos h2{
+        font-size: 25px;
+    }
 
 }
 
