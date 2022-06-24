@@ -438,22 +438,7 @@ h1 {
 
 
 
-@media (max-width: 769px) {
 
-    .menu {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        float: left;
-        margin: -17px 2px 2px 20px;
-        flex-direction: row-reverse;
-    }
-
-    .remote_exercise h1 {
-        margin-left: 50px;
-    }
-
-}
 /*For screens upto size from 1024px and below*/
 
 @media (max-width: 1024px) {
@@ -503,23 +488,40 @@ h1 {
     }
 
 }
-
-/*For screens upto size from 360px and down*/
-
-@media screen and (max-width: 360px) {
-
-    .logo {
-        font-size: 150%;
-    }
+/*For screens upto size from 769px and down*/
+@media (max-width: 769px) {
 
     .menu {
-        clear: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         float: left;
-        padding: 0;
-        line-height: 25px;
-        margin-left: 7%;
+        margin: -17px 2px 2px 20px;
+        flex-direction: row-reverse;
     }
 
+    .remote_exercise h1 {
+        margin-left: 50px;
+    }
+
+}
+
+/*For screens upto size from 480px and down*/
+
+@media screen and (max-width: 480px) {
+    .remote_exercise h1{
+       margin-left: 0px;
+    }
+    .centersheading {
+        font-size: 33px;
+        margin-left: -39px;   
+    }
+    .col-2-Centers h2{
+        margin: -27px 33px 32px -214px;
+        
+    }
+}
+/*
     .menu li {
         color: white;
     }
@@ -642,5 +644,7 @@ h1 {
         height: 1600px;
         margin-left: -3px;
     }
+    
 
 }
+*/
