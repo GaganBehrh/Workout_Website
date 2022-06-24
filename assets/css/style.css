@@ -425,12 +425,13 @@ h1 {
         letter-spacing: 4px;
         
     }
-    .centersheading {
+    #centertitle{
         margin-right: 120px;
         margin-top: -129%;
         letter-spacing: 4px;
         text-align: center;
     }
+    
 
     footer {
         height: auto;
@@ -555,7 +556,8 @@ h1 {
         margin-left: 52px;
         margin-top: -318%;
     }
-    
+    #centertitle{
+    margin-top: -324%;}
     .col-1-Centers img {
         height: 378px;
         width: 100%;
