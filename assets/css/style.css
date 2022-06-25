@@ -138,7 +138,7 @@ h1 {
     margin: -60% 5% 4% 44%;
     position: relative;
     background-color: #3fd350;
-    border-radius: 1.375px;
+    border-radius: 0.086rem;
     padding: 1.25rem;
 
 }
@@ -229,14 +229,14 @@ form {
 form h1 {
     margin-top: 1.25rem;
     color: black;
-    margin: 0.438rem 1.69rem 0.875px;
+    margin: 0.438rem 1.69rem 0.055rem;
 
 }
 
 input {
     padding: 0.625rem;
     border-radius: 0.25rem;
-    border: 1px solid black;
+    border: 0.06rem solid black;
     outline: none;
     display: block;
     margin: 0 auto;
@@ -598,7 +598,7 @@ h1 {
     }
 
     .workout_videos {
-        margin-top: 50px;
+        margin-top: 3.125rem;
         column-count: 1;
         border-radius: 1.25rem;
         height: 50rem;
