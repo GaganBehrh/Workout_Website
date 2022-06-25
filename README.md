@@ -7,7 +7,7 @@ User story:
 (b)As a user , I want to know where are the different centers of gym in Zurich.
 (c)As a user, I want to know what are the different levels of trainings provided by the gym depending on the Intensity level
 (d)As a user, I want to able to do the workout remotely if I cant go gym
-(e) As a user, I would like access the socila media links for the gym
+(e) As a user, I would like access the social media links for the gym
 
 Features
 This wesite has three pages overall. 
@@ -70,7 +70,7 @@ Test Result: Pass, reason:This is found in Trainings page
 Test Result: Pass, reason:There are videos found in Trainings Page, so I can train myself remotely from anywhere
 (e) As a user, I would like access the social media links for the gym
 Test Result: Pass, reason:There are social media links found in the footer section of each page
-The website is responsive on diffent screen sizes such as (max-width:1200px,950px and 360px)... change here
+The website is responsive on different screen sizes ranging from mobile to laptops to large screens
 
 
 
