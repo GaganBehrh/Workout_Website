@@ -5,6 +5,7 @@
     margin: 0;
     border: 0;
     padding: 0;
+    box-sizing: content-box ;
 }
 
 .container {
@@ -282,7 +283,7 @@ footer {
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box;
+ box-sizing: content-box ;
   }
   .wrapper > * {
     padding: 10px;
@@ -293,10 +294,12 @@ footer {
   header {
     background: tomato;
     height: 120px;
+    box-sizing: content-box ;
   }
   .footer {
     background: lightgreen;
     height: 80px;
+    box-sizing: content-box ;
   }
   
   .main {
