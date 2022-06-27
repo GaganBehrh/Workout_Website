@@ -1,5 +1,5 @@
 ## Workout_Website
-***
+---
 A fully responsive website using CSS and HTML5.
 Workout Website is a site that hopes to keep people healthy and shows different kinds of workouts possible both at gym and at home with no equipments in Zurich Switzerland. The site will be targeted toward people who are interested to workout, to socialise and keep themselves fit. There is a possibilty to join the community both online or on the gym site by registering themselves on the SignUp page at different centres in Zurich Switzerland.
 
