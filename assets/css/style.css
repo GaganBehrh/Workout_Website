@@ -318,7 +318,7 @@ footer {
   
   @media all and (min-width: 1200px) {
     .wrapper {
-      display: flexbox;
+      display: flex;
       justify-content: center;
       align-items: center;
     }
