@@ -57,19 +57,24 @@ No errors were found when passing through the official (Jigsaw) validator
 #### HTML
 There were no errors when using official W3C validator but there were some warnings regarding the use of headers for which I have used divs instead
 
-Manual Testing: Accessibilty test results were found to be 93%.
+#### Manual Testing:
+Accessibilty test results were found to be 93%.
 
 #### Testing of Userstories:
 (a)As a user, I want to be able to Signup up for the membership for the gym.
 Test Result: Pass, reason:I found a Signup page for this userstory
+
 (b)As a user , I want to know where are the different centers of gym in Zurich.
 Test Result:Pass, reason: There is a section in Home page which shows different areas in Zurich where gyms are present
 (c)As a user, I want to know what are the different levels of trainings provided by the gym depending on the Intensity level
 Test Result: Pass, reason:This is found in Trainings page
+
 (d)As a user, I want to able to do the workout remotely if I cant go gym
 Test Result: Pass, reason:There are videos found in Trainings Page, so I can train myself remotely from anywhere
+
 (e) As a user, I would like access the social media links for the gym
 Test Result: Pass, reason:There are social media links found in the footer section of each page
+
 The website is responsive on different screen sizes ranging from mobile to laptops to large screens
 
 
@@ -82,7 +87,7 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here - to be filled............................
 
 ## **Credits**
-####Media:
+#### Media:
 1. The media/videos on the training page was taken from Youtube.
 2. The logos are taken from Font-awesome
 3. The Images are taken from:Google Images and from some gym centres websites such as 
