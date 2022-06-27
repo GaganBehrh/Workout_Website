@@ -61,19 +61,19 @@ There were no errors when using official W3C validator but there were some warni
 Accessibilty test results were found to be 93%.
 
 #### Testing of Userstories:
-(a)As a user, I want to be able to Signup up for the membership for the gym.
-Test Result: Pass, reason:I found a Signup page for this userstory
+(a) As a user, I want to be able to Signup up for the membership for the gym.
+    Test Result: Pass, reason:I found a Signup page for this userstory
 
-(b)As a user , I want to know where are the different centers of gym in Zurich.
-Test Result:Pass, reason: There is a section in Home page which shows different areas in Zurich where gyms are present
-(c)As a user, I want to know what are the different levels of trainings provided by the gym depending on the Intensity level
-Test Result: Pass, reason:This is found in Trainings page
+(b) As a user , I want to know where are the different centers of gym in Zurich.
+    Test Result:Pass, reason: There is a section in Home page which shows different areas in Zurich where gyms are present
+(c) As a user, I want to know what are the different levels of trainings provided by the gym depending on the Intensity level
+    Test Result: Pass, reason:This is found in Trainings page
 
 (d)As a user, I want to able to do the workout remotely if I cant go gym
-Test Result: Pass, reason:There are videos found in Trainings Page, so I can train myself remotely from anywhere
+   Test Result: Pass, reason:There are videos found in Trainings Page, so I can train myself remotely from anywhere
 
 (e) As a user, I would like access the social media links for the gym
-Test Result: Pass, reason:There are social media links found in the footer section of each page
+    Test Result: Pass, reason:There are social media links found in the footer section of each page
 
 The website is responsive on different screen sizes ranging from mobile to laptops to large screens
 
