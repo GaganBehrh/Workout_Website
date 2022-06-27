@@ -250,7 +250,7 @@ label {
     font-weight: 500;
     font-size: 0.938rem;
     text-align: center;
-    margin: 0.438rem 3.25rem -1.652rem;
+    margin: 0.438rem 1.25rem 11.348rem;;
 }
 
 form button {
@@ -577,7 +577,7 @@ footer {
 
     .socialMedia i {
         font-size: 160%;
-        margin:13% -11% 8% 18%;
+        margin:4% -11% 7% 9%;
         padding: 5%;
         color: #000000;
     }
