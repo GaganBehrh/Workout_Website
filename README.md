@@ -1,21 +1,21 @@
-# Workout_Website
+## Workout_Website
 A fully responsive website using CSS and HTML5.
 Workout Website is a site that hopes to keep people healthy and shows different kinds of workouts possible both at gym and at home with no equipments in Zurich Switzerland. The site will be targeted toward people who are interested to workout, to socialise and keep themselves fit. There is a possibilty to join the community both online or on the gym site by registering themselves on the SignUp page at different centres in Zurich Switzerland.
 
-User story:
+## User story:
 (a)As a user, I want to be able to Signup up for the membership for the gym.
 (b)As a user , I want to know where are the different centers of gym in Zurich.
 (c)As a user, I want to know what are the different levels of trainings provided by the gym depending on the Intensity level
 (d)As a user, I want to able to do the workout remotely if I cant go gym
 (e) As a user, I would like access the social media links for the gym
 
-Features
+## Features
 This wesite has three pages overall. 
 1.Landing Page/Home Page
 2.Trainings Page
 3.SignUpPage
 
-**LandingPage**
+### **LandingPage**
 
 It has four different sections
 1.Section 1: Header and Navigation Bar: It has logo and three options to navigate the Home Page, Trainings page and the SignUp page
@@ -30,7 +30,7 @@ This section shows where are the various gym centres located in Zurich Switzerla
 ![image](https://user-images.githubusercontent.com/63474017/174800114-3a2ff41e-3f4c-4bd9-b471-a68101ca5075.png)
 
 
-**Trainings Page**
+### **Trainings Page**
 
 It consists of three sections
 1.Section 1:Header and Navigation Bar: Same as Landing Page
@@ -40,7 +40,7 @@ It consists of three sections
 3.Section 3: Footer Section:Same as Footer Section in Landing Page
 
 
-**SignUp Page**
+### **SignUp Page**
 
 This Page also has three sections
 1.Section 1:Header and Navigation Bar: Same as Landing Page
@@ -50,15 +50,15 @@ This Page also has three sections
 3.Section 3: Footer Section:Same as Footer Section in Landing Page
 
 
-**Testing**
-CSS
+### **Testing**
+####CSS
 No errors were found when passing through the official (Jigsaw) validator
-HTML
+####HTML
 There were no errors when using official W3C validator but there were some warnings regarding the use of headers for which I have used divs instead
 
 Manual Testing: Accessibilty test results were found to be 93%.
 
-Testing of Userstories:
+### Testing of Userstories:
 (a)As a user, I want to be able to Signup up for the membership for the gym.
 Test Result: Pass, reason:I found a Signup page for this userstory
 
@@ -74,15 +74,15 @@ The website is responsive on different screen sizes ranging from mobile to lapto
 
 
 
-**Deployment**
+### **Deployment**
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - to be filled............................
 
-**Credits**
-Media:
+### **Credits**
+####Media:
 1. The media/videos on the training page was taken from Youtube.
 2. The logos are taken from Font-awesome
 3. The Images are taken from:Google Images and from some gym centres websites such as 
