@@ -273,97 +273,78 @@ footer {
 
 
 /*Styling for trainings section starts here*/
-* {
-    margin: 0;
-    border: 0;
-    padding: 0;
-}
 
-.container {
-    width: 100%;
-}
-
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: blueviolet;
-    font-weight: 250;
-    color: #3a3a3a;
-}
-
-h1 {
-    font-family: sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.25rem;
-    color: #3fd350;
-}
-
-.menu,
-.logo {
-    line-height: 4.688rem;
-}
-
-.logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 1.25rem;
-
-}
-
-.menu {
-    font-size: 100%;
-    letter-spacing: 0.25rem;
-}
-
-
-.menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 1.875rem;
-    text-decoration: none;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #7ec27e;
-}
-
-
-.menu a:hover {
-    border-bottom: 0.06rem solid #f1dddd;
-}
-
-.workoutVideos {
-    margin-top: 0rem;
-    column-count: 3;
-    border-radius: 1.25rem;
-}
-
-.workoutVideos h2 {
+  .wrapper {
+    display: flex;
+    flex-flow: row wrap;
     text-align: center;
-    font-size: 1.875rem;
-    padding-bottom: 1.25rem;
-}
-
-.video1 {
-    border-radius: 2.5rem;
-    margin-top: 1.25rem;
-    width: 100%;
-    height: 25rem;
-}
-
-.video2 {
-    border-radius: 2.5rem;
-    margin-top: 1.25rem;
-    width: 100%;
-    height: 25rem;
-}
-
-.video3 {
-    border-radius: 2.5rem;
-    margin-top: 1.25rem;
-    width: 100%;
-    height: 25rem;
-}
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+  }
+  .wrapper > * {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 75%;
+    border-radius: 10px;
+  }
+  header {
+    background: tomato;
+    height: 120px;
+  }
+  .footer {
+    background: lightgreen;
+    height: 80px;
+  }
+  
+  .main {
+    text-align: left;
+    background: deepskyblue;
+    height: 300px;
+    font-size: 24px;
+    border-radius: 20px;
+  }
+  .aside1 {
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 4px;
+  }
+  
+  @media all and (min-width: 1200px) {
+    .wrapper {
+      display: flexbox;
+      justify-content: center;
+      align-items: center;
+    }
+    .aside1 h1 {
+      flex-shrink: 1;
+    }
+  }
+  @media all and (min-width: 800px) {
+    .main {
+      flex: 1;
+    }
+    .aside1 {
+      order: 1;
+      flex: 1;
+    }
+    .main {
+      order: 1;
+    }
+    .footer {
+      order: 2;
+    }
+  }
+  
+  @media all and (min-width: 600px) {
+    .aside {
+      flex: 1;
+    }
+  }
+  
 
 /*Sytling for trainings section ends here*/
 
