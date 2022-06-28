@@ -331,6 +331,10 @@ footer {
     .aside1 h1 {
       flex-shrink: 1;
     }
+   .col-1 img{
+    height: 82vh;
+
+   }
   }
   @media all and (min-width: 800px) {
     .main {
@@ -487,14 +491,10 @@ footer {
         width: 100%;
         height: 30.25rem;
     }
-    .col-1{
-        flex-basis: 100%;
-    flex-grow: 2;
+    .col-1 img{
+        height: 100vh;
     }
-    .col-2{
-        flex-basis: 100%;
-    flex-grow: 1;
-    }
+    
 
 
 }
