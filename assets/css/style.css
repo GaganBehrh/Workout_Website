@@ -317,7 +317,13 @@ footer {
     letter-spacing: 0.25rem;
   }
   
-  @media all and (min-width: 1200px) {
+  
+  
+
+/*Sytling for trainings section ends here*/
+
+/*Media Queries*/
+@media all and (min-width: 1200px) {
     .wrapper {
       display: flex;
       justify-content: center;
@@ -348,11 +354,6 @@ footer {
       flex: 1;
     }
   }
-  
-
-/*Sytling for trainings section ends here*/
-
-/*Media Queries*/
 
 /*For larger to medium screens size from 1200px and down*/
 
