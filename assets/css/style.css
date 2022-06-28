@@ -133,7 +133,7 @@ h1 {
     font-size: 2.43rem;
     text-transform: uppercase;
     letter-spacing: 0.25rem;
-    color: #3fd350;
+    color: #060606;
 }
 
 .col-2-Centers {
@@ -493,7 +493,7 @@ footer {
         height: 30.25rem;
     }
     .col-1 img{
-        height: 77vh;
+        height: 74vh;
     }
 
 }
