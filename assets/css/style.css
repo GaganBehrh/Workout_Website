@@ -157,7 +157,7 @@ h1 {
 }
 
 footer {
-    height: 9.375rem;
+  
     background-color: white;
 }
 
@@ -172,7 +172,7 @@ footer {
 .socialMedia i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 0 2%;
     color: #000000;
 }
 
@@ -243,7 +243,7 @@ input {
     display: block;
     margin: 0 auto;
     width: 80%;
-    margin: 0.438rem 0.125rem -1.625rem;
+    margin: 0.438rem 0.125rem;
 }
 
 label {
@@ -267,7 +267,6 @@ form button {
 }
 
 footer {
-    height: 13.75rem;
     background-color: white;
 }
 
@@ -299,7 +298,6 @@ footer {
   }
   .footer {
     background: white;
-    height: 5rem;
     box-sizing: content-box ;
   }
   
@@ -396,7 +394,6 @@ footer {
     }
 
     footer {
-        height: auto;
         width: 100%;
     }
 }
@@ -564,7 +561,6 @@ footer {
     }
 
     footer {
-        height: 9.375rem;
         background-color: white;
     }
 
