@@ -415,9 +415,9 @@ footer {
     .menu {
         clear: left;
         float: left;
-        padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+        padding: 2.25rem 1.25rem 1.25rem 1.25rem;
         line-height: 1.563rem;
-        font-size: 80%;
+        font-size: 117%;
         margin-top: -5%;
     }
 
@@ -511,6 +511,7 @@ footer {
         padding: 0;
         line-height: 1.563rem;
         margin-left: 7%;
+        font-size: 95%;
     }
 
     .menu li {
