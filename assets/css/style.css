@@ -52,6 +52,7 @@ h1 {
 .menu a {
     text-decoration: none;
     color: #45a6ea;
+    font-size: 169%;
 }
 
 .menu a:hover {
@@ -415,7 +416,7 @@ footer {
     .menu {
         clear: left;
         float: left;
-        padding: 2.25rem 1.25rem 1.25rem 1.25rem;
+        padding: 2.8rem 1.25rem 1.25rem 1.25rem;
         line-height: 1.563rem;
         font-size: 117%;
         margin-top: -5%;
@@ -511,7 +512,7 @@ footer {
         padding: 0;
         line-height: 1.563rem;
         margin-left: 7%;
-        font-size: 95%;
+        font-size:60%;
     }
 
     .menu li {
@@ -575,6 +576,7 @@ footer {
 
     .socialMedia {
         text-align: center;
+        margin-left: -5rem;
     }
 
     .socialMedia li {
