@@ -52,7 +52,7 @@ h1 {
 .menu a {
     text-decoration: none;
     color: #45a6ea;
-    font-size: 132%;
+    font-size: 136%;
 }
 
 .menu a:hover {
@@ -507,7 +507,7 @@ footer {
 @media screen and (max-width: 480px) {
 
     .logo {
-        font-size: 150%;
+        font-size: 135%;
     }
 
     .menu {
