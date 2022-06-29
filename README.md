@@ -21,7 +21,8 @@ This wesite has three pages overall.
 
 It has four different sections
 1. Section 1: Header and Navigation Bar: It has logo and three options to navigate the Home Page, Trainings page and the SignUp page
- ![image](https://user-images.githubusercontent.com/63474017/176374125-355c48f8-64e1-441e-bfe4-02dc48f841ab.png)
+ ![image](https://user-images.githubusercontent.com/63474017/176374909-aacbef6e-96bc-4573-aa80-2e84cbf90fb2.png)
+
 2. Section 2: Next section describes that there are two ways to workout, either it can be carried out in the gym which is presented by the gym image of it can be done anywhere remotely at home without equipment
 ![image](https://user-images.githubusercontent.com/63474017/176374329-26ac7e81-ed9c-4b48-920e-c8e516af6c5b.png)
 
@@ -51,7 +52,8 @@ It consists of three sections
 This Page also has three sections
 1. Section 1:Header and Navigation Bar: Same as Landing Page
 2. SignUp Section: It has the image a working out in the gym where people can signup if they want to join different centers in Zurich Switzerland
-![image](https://user-images.githubusercontent.com/63474017/176374629-8010d358-e196-4579-8733-7781495e5a67.png)
+![image](https://user-images.githubusercontent.com/63474017/176374794-b1612a13-3a0a-4aec-8195-2fa98b2c6f1a.png)
+
 
 
 3. Section 3: Footer Section:Same as Footer Section in Landing Page
