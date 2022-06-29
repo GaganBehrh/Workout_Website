@@ -5,17 +5,17 @@ Workout Website is a site that hopes to keep people healthy and shows different 
 Target Audience: The site will be targeted toward people who are interested to workout, to socialise and keep themselves fit. 
 
 ## User story:
-1.As a user, I want to be able to Signup up for the membership for the gym.
-2.As a user , I want to know where are the different centers of gym in Zurich.
-3.As a user, I want to know what are the different levels of trainings provided by the gym depending on the Intensity level
-4.As a user, I want to able to do the workout remotely if I cant go gym
-5.As a user, I would like access the social media links for the gym
+1. As a user, I want to be able to Signup up for the membership for the gym.
+2. As a user , I want to know where are the different centers of gym in Zurich.
+3. As a user, I want to know what are the different levels of trainings provided by the gym depending on the Intensity level
+4. As a user, I want to able to do the workout remotely if I cant go gym
+5. As a user, I would like access the social media links for the gym
 
 ## Features
 This wesite has three pages overall. 
-1.Landing Page/Home Page
-2.Trainings Page
-3.SignUpPage
+1. Landing Page/Home Page
+2. Trainings Page
+3. SignUpPage
 
 ### **LandingPage**
 
