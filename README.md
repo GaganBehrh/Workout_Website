@@ -90,7 +90,10 @@ The website is responsive on different screen sizes.
 
 
 ## **Deployment**
-The site was deployed to GitHub pages. The live link can be found here - https://gaganbehrh.github.io/Workout_Website/
+The site was deployed to GitHub pages. The steps are as follows:
+1. In the GitHub repository, navigate to the Settings Tab 
+2. Select the main branch
+3. Once the main branch is provided, the following link to the website was provided.The live link can be found here - https://gaganbehrh.github.io/Workout_Website/
 
 ## **Credits**
 #### Media:
