@@ -10,6 +10,7 @@
 
 .container {
     width: 100%;
+    
 }
 
 body {
@@ -324,6 +325,7 @@ footer {
 /*Sytling for trainings section ends here*/
 
 /*Media Queries*/
+
 @media all and (min-width: 1200px) {
     .wrapper {
       display: flex;
