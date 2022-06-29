@@ -103,7 +103,7 @@ The site was deployed to GitHub pages. The live link can be found here - https:/
 7. https://www.sweatfxbg.com/
 8. https://www.stacylelfitness.com/
 9. https://www.popsugar.co.uk/fitness/25-Minute-Total-Body-Strength-Workout-46384359?utm_medium=redirect&utm_campaign=US:CH&utm_source=www.google.com
-10. Zurich Image from Google Image
+10. Zurich Image from Wikipedia:https://en.wikipedia.org/wiki/Z%C3%BCrich
 
 
 
