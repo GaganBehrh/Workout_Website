@@ -8,7 +8,7 @@ Target Audience: The site will be targeted toward people who are interested to w
 1. As a user, I want to be able to Signup up for the membership for the gym.
 2. As a user , I want to know where are the different centers of gym in Zurich.
 3. As a user, I want to know what are the different levels of trainings provided by the gym depending on the Intensity level
-4. As a user, I want to able to do the workout remotely if I cant go gym
+4. As a user, I want to able to do the workout remotely if I cant go to gym
 5. As a user, I would like access the social media links for the gym
 
 ## Features
@@ -64,7 +64,7 @@ This Page also has three sections
 #### CSS
 No errors were found when passing through the official (Jigsaw) validator
 #### HTML
-There were no errors when using official W3C validator but there were some warnings regarding the use of headers for which I have used divs instead
+There were no errors when using official W3C validator but there were some warnings regarding the use of headers 
 
 #### Manual Testing:
 Accessibilty test results were found to be 93%.
@@ -75,6 +75,7 @@ Accessibilty test results were found to be 93%.
 
 2. As a user , I want to know where are the different centers of gym in Zurich.
     Test Result:Pass, reason: There is a section in Home page which shows different areas in Zurich where gyms are present
+    
 3. As a user, I want to know what are the different levels of trainings provided by the gym depending on the Intensity level
     Test Result: Pass, reason:This is found in Trainings page
 
@@ -84,26 +85,25 @@ Accessibilty test results were found to be 93%.
 5.  As a user, I would like access the social media links for the gym
     Test Result: Pass, reason:There are social media links found in the footer section of each page
 
-The website is responsive on different screen sizes ranging from mobile to laptops to large screens
+The website is responsive on different screen sizes.
 
 
 
 ## **Deployment**
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://gaganbehrh.github.io/Workout_Website/
+The site was deployed to GitHub pages. The live link can be found here - https://gaganbehrh.github.io/Workout_Website/
 
 ## **Credits**
 #### Media:
 1. The media/videos on the training page was taken from Youtube.
-2. The logos are taken from Font-awesome
-3. The Images are taken from:Google Images and from some gym centres websites such as 
-1. https://www.sweatfxbg.com/
-2. https://www.stacylelfitness.com/
-3. https://www.popsugar.co.uk/fitness/25-Minute-Total-Body-Strength-Workout-46384359?utm_medium=redirect&utm_campaign=US:CH&utm_source=www.google.com
-4. Zurich Image from Google Image
+2. https://www.youtube.com/embed/g_tea8ZNk5A
+3. https://www.youtube.com/embed/jpizoUy4K9s
+4. https://www.youtube.com/embed/Amj0PAfhGIk
+5. The logos are taken from Font-awesome
+6. The Images are taken from:Google Images and from some gym centres websites such as 
+7. https://www.sweatfxbg.com/
+8. https://www.stacylelfitness.com/
+9. https://www.popsugar.co.uk/fitness/25-Minute-Total-Body-Strength-Workout-46384359?utm_medium=redirect&utm_campaign=US:CH&utm_source=www.google.com
+10. Zurich Image from Google Image
 
 
 
