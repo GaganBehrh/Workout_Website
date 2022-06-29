@@ -21,15 +21,18 @@ This wesite has three pages overall.
 
 It has four different sections
 1. Section 1: Header and Navigation Bar: It has logo and three options to navigate the Home Page, Trainings page and the SignUp page
+ ![image](https://user-images.githubusercontent.com/63474017/176374125-355c48f8-64e1-441e-bfe4-02dc48f841ab.png)
 2. Section 2: Next section describes that there are two ways to workout, either it can be carried out in the gym which is presented by the gym image of it can be done anywhere remotely at home without equipment
-![image](https://user-images.githubusercontent.com/63474017/174799353-488adddd-2c0b-4d7e-be18-23f254d652d4.png)
+![image](https://user-images.githubusercontent.com/63474017/176374329-26ac7e81-ed9c-4b48-920e-c8e516af6c5b.png)
 
 3. Section3:Centres in Zurich in Switzerland
 This section shows where are the various gym centres located in Zurich Switzerland also showing the image of Zurich in the background
-![image](https://user-images.githubusercontent.com/63474017/175058669-f0381180-2f14-4c38-879c-e1e625a4085c.png)
+![image](https://user-images.githubusercontent.com/63474017/176374419-90aea731-acc2-46e7-a4dc-1c618ab35f27.png)
+
 
 4. Section 4: Footer Section:The footer section includes links to the relevant social media sites for Workout group. The links will open to a new tab to allow easy navigation for the user.
-![image](https://user-images.githubusercontent.com/63474017/174800114-3a2ff41e-3f4c-4bd9-b471-a68101ca5075.png)
+![image](https://user-images.githubusercontent.com/63474017/176374561-a21d6321-d8b0-4845-91ec-abbddf222581.png)
+
 
 
 ### **Trainings Page**
@@ -48,7 +51,8 @@ It consists of three sections
 This Page also has three sections
 1. Section 1:Header and Navigation Bar: Same as Landing Page
 2. SignUp Section: It has the image a working out in the gym where people can signup if they want to join different centers in Zurich Switzerland
-![image](https://user-images.githubusercontent.com/63474017/174803874-d4543f87-1238-4109-9418-def7c5a58ff8.png)
+![image](https://user-images.githubusercontent.com/63474017/176374629-8010d358-e196-4579-8733-7781495e5a67.png)
+
 
 3. Section 3: Footer Section:Same as Footer Section in Landing Page
 
