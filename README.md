@@ -52,7 +52,7 @@ It consists of three sections
 This Page also has three sections
 1. Section 1:Header and Navigation Bar: Same as Landing Page
 2. SignUp Section: It has the image a working out in the gym where people can signup if they want to join different centers in Zurich Switzerland
-![image](https://user-images.githubusercontent.com/63474017/176374794-b1612a13-3a0a-4aec-8195-2fa98b2c6f1a.png)
+![image](https://user-images.githubusercontent.com/63474017/176376761-5d8d368d-0e9d-4a01-b265-af44a531390b.png)
 
 
 
