@@ -37,7 +37,7 @@ This section shows where are the various gym centres located in Zurich Switzerla
 It consists of three sections
 1. Section 1:Header and Navigation Bar: Same as Landing Page
 2. Workout Video Section: It shows different kinds of videos ranging from streching exercies, Semi- Intensive workout to Intensive workout
-![image](https://user-images.githubusercontent.com/63474017/176373580-967f5058-a35c-4541-a4b0-72c02052e355.png)
+![image](https://user-images.githubusercontent.com/63474017/176373902-1062de45-bb14-49bf-bbbe-2814104846e7.png)
 
 
 3. Section 3: Footer Section:Same as Footer Section in Landing Page
